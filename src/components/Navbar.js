@@ -21,7 +21,7 @@ export default function Navbar(props) {
               }
               href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
             >
-              Tailwind Starter Kit
+                {props.title}
             </a>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -62,7 +62,7 @@ export default function Navbar(props) {
                       " far fa-file-alt text-lg leading-lg mr-2"
                     }
                   />{" "}
-                  Docs
+                
                 </a>
               </li>
             </ul>

@@ -1,8 +1,8 @@
 module.exports = {
-  purge: [],
+  purge: ["../src", "tailwind.js"],
   theme: {
     extend: {},
   },
   variants: {},
   plugins: [],
-}
+};
